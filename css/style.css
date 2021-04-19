@@ -1715,6 +1715,25 @@ input[type="radio"] .styled:checked+label::after {
 	border-radius: 35px;
 }
 
+#competenties_carousel a.carousel-control-next {
+	position: absolute;
+	top: 40% !important;
+	left: inherit !important;
+	right: -22px !important;
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+}
+
+#competenties_carousel a.carousel-control-prev {
+	position: absolute;
+	top: 40% !important;
+	left: -22px !important;
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+}
+
 
 /** about section **/
 
@@ -2372,6 +2391,43 @@ ul.contant_icon li img {
 
 
 /** slider arrow **/
+
+
+
+
+#competenties_carousel  .carousel-control-prev,
+#competenties_carousel  .carousel-control-next {
+	width: 62px;
+	height: 60px;
+	background: #fffdfd;
+	opacity: 1;
+	font-size: 30px;
+	color: #000;
+}
+
+#competenties_carousel .carousel-control-prev:hover,
+#competenties_carousel .carousel-control-next:hover,
+#competenties_carousel .carousel-control-prev:focus,
+#competenties_carousel .carousel-control-next:focus {
+	background: #0fc690;
+	color: #fff;
+}
+
+#competenties_carousel a.carousel-control-prev {
+	position: absolute;
+	left: 82px;
+	bottom: 10px;
+	top: inherit;
+}
+
+#competenties_carousel a.carousel-control-next {
+	position: absolute;
+	left: 10px;
+	top: inherit;
+	bottom: 10px;
+}
+
+
 
 #myCarousel .carousel-control-prev,
 #myCarousel .carousel-control-next {
