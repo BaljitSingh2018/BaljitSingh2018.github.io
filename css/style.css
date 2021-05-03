@@ -1783,7 +1783,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .about .titlepage span {
-	color: # 3d3c3c;
+	color: #3d3c3c;
 	font-size: 17px;
 	line-height: 30px;
 }
@@ -1828,7 +1828,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .service .titlepage span {
-	color: # 3d3c3c
+	color: #3d3c3c
 }
 
 .service .service-box figure {
@@ -2459,4 +2459,10 @@ ul.contant_icon li img {
 	left: 10px;
 	top: inherit;
 	bottom: 10px;
+}
+
+/*self added*/
+.blur{
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.8); /* Black background with 0.5 opacity */
 }
